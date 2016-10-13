@@ -1,0 +1,7 @@
+$top: -16px;
+$h: 32px;
+@for $i from 0 through 13{
+	.banner_nav_item#{$i+1}{
+		top: $top - $h * $i;
+	}
+}
